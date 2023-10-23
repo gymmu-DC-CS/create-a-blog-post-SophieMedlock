@@ -7,6 +7,9 @@ h1 {
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
   color: rgb(0, 106, 172);
+  animation-name: color-changer;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 p {
   font-size: 20px;
@@ -36,4 +39,14 @@ h3{
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   color: rgba(0, 143, 162, 0.884);
+}
+#border {
+  border-width: 10px;
+}
+@keyframes color-changer {
+  0% {color:rgb(0, 106, 172);}
+  25% {color: rgb(95, 0, 203);}
+  50% {color:  rgb(142, 0, 203);}
+  75% {color: rgb(95, 0, 203);}
+  100% {color:rgb(0, 106, 172);}
 }
