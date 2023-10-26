@@ -50,8 +50,11 @@ h3{
   75% {color: rgb(95, 0, 203);}
   100% {color:rgb(0, 106, 172);}
 }
-.colour {
+#colour {
   background-color: rgb(192, 43, 226);
   padding: 20px;
   width: 1136px;
+}
+#left {
+  padding: 10px;
 }
