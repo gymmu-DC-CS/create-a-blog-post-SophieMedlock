@@ -8,7 +8,7 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   color: rgb(0, 106, 172);
   animation-name: color-changer;
-  animation-duration: 8s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 p {
